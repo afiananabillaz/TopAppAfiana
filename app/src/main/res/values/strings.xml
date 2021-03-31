@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AfianaTopApp</string>
+    <string name="iv_RS">iv_RS</string>
+    <string name="iv_police">iv_police</string>
+    <string name="iv_supermarket">iv_supermarket</string>
+    <string name="iv_sekolah">iv_sekolah</string>
+</resources>

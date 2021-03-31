@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:contentDescription="@string/iv_RS"
+            android:layout_weight="1"
+            android:id="@+id/ivRS"
+            android:padding="10dp"
+            android:onClick="clickRS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/img_rumahsakit"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:contentDescription="@string/iv_police"
+            android:layout_weight="1"
+            android:id="@+id/ivPolice"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/img_polisi" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:contentDescription="@string/iv_supermarket"
+            android:layout_weight="1"
+            android:id="@+id/ivSupermarket"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/img_supermarket" />
+
+        <ImageView
+            android:contentDescription="@string/iv_sekolah"
+            android:layout_weight="1"
+            android:id="@+id/ivSekolah"
+            android:padding="10dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/img_sekolah" />
+
+    </TableRow>
+
+
+</LinearLayout>
